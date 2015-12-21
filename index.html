@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8" />
+
+<title>Estacionamento</title>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster" />
+<link rel="stylesheet" href="assets/css/pure-min.css" />
+<link rel="stylesheet" href="assets/css/main.css" />
+
+</head>
+<body>
+
+<header>
+	<h1>Dados do Carro</h1>
+</header>
+
+<form class="pure-form pure-form-aligned">
+	<fieldset>
+		<div class="pure-control-group">
+			<label for="license_plate">license_plate:</label>
+			<input id="license_plate" type="text" placeholder="license_plate" required>
+		</div>
+
+		<div class="pure-control-group">
+			<label for="checkin">checkin:</label>
+			<input id="checkin" type="checkin" placeholder="checkin" required>
+		</div>
+		<div class="pure-control-group">
+			<label for="checkoutprice">checkout:</label>
+			<input id="checkout" type="checkout" placeholder="checkout" required>
+		</div>
+		
+		<div class="pure-controls">
+			<button type="submit" class="pure-button pure-button-primary">Submit</button>
+		</div>
+	</fieldset>
+</form>
+
+<section id="listCarts">
+</section>
